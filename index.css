@@ -1,0 +1,24 @@
+·body{
+    margin: 0;
+}
+.background{
+    width: 1500px;
+}
+main{
+
+}
+#myButton {
+    transition: transform 1s; 
+}
+.rotate {
+    transform: rotate(360deg);
+}
+.name {
+    font-size: 100px ;
+    align-content: center;
+}
+body
+{
+background-color: #FFFFFF;
+color:black;
+}
