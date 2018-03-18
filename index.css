@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+
+
+html {
+    height:100%;
+}
+
+body{
+    height: 100%;
+    margin: 0%;
+}
+
+header {
+    background-image: url("image/amour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;  
+    flex-direction: column;          
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+section{
+    min-height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(139, 216, 170, 0.51);
+    border-style: dotted;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+}
+
+h1:hover{
+    background-color: rgba(139, 216, 170, 1);
+}
+
+article:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+article{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(151, 186, 162, 1);
+    border-style: dotted;
+    padding: 20px;
+    text-align: center;
+
+    width:20%;
+    padding:10px;    
+    margin:10px;
+    filter: grayscale(0);
+    overflow: hidden;
+
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(1);
+    z-index: -1;
+    transition: all 0.3s ease-in-out·
+}
+article:hover .bg-img{
+    filter:grayscale(0);
+    transform: scale(1.5);
+}
+
+article h2{
+    color: #7EE293
+}
+
+#Article1 {
+    background-image:url("image/flower.jpg");
+}
+
+#Article2 {
+    background-image:url("image/flower3.jpg");
+}
+
+#Article3{
+    background-image:url("image/flower4.jpg");
+}
+
+#Article4 {
+    background-image:url("image/flower5.jpg");
+}
+
+
+@media only screen and (max-width: 600px) {
+    section{
+        flex-direction: column;
+    }
+    article{
+        position: relative;
+        width: 80%;
+        padding: 10;
+
+    }
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width:768px) {
+
+}
+
+@media only screen and (min-width:168px) {
+
+}
